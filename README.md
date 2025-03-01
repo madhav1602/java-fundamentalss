@@ -46,8 +46,28 @@ vi) complex details are hidden from the user and only necessary details are show
 
 it was first implementd in 1991 in a project known as the green project.
 
+# Evolution of java over the years
+. Java 1.1: inner class, JDBC, Java Beans.
 
- ##   public static void main(String[] args)
+. Java 2: Swing Graphical API, collection framework.
+
+. Java 5: generics, annotations, enumerated types, enhanced for-loop.
+
+. Java 6: performance, Web service enhance, scripting lang support.
+
+. Java 7: try-with-resources statement, diamond operator, improved support for dynamic languages.
+
+. Java 8 (LTS) : Lambda Expression, Stream API, date & time API.
+
+. Java 9: Java program module System (project jigsaw) which improved scalability and performance.
+
+. Java 10 and beyond: more rapid releases with new versions every six months.
+
+. Long-term support versions are 8, 11, 17, 21.
+
+
+
+ #   public static void main(String[] args)
      public static void main(String[] args)
 . public is a keyword and access modifier that allows the method to be accessible from anywhere
 
@@ -58,7 +78,7 @@ it was first implementd in 1991 in a project known as the green project.
 . String[] args is the parameter for the main program, it is an array of strings that stores command line arguments.
 
 
-## System.out.print("hello");
+# System.out.print("hello");
     System.out.print("hello");
 . System is a predefined class that provides access to the system.
 
