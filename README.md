@@ -2,19 +2,19 @@
 Java is a high-level, object-oriented programming language that was originally developed by sun microsystems and is now owned by oracle corporation.
 
 # WHY JAVA IS HIGH-LEVEL PROGRAMMING LANGUAGE?
-i) Abstraction from hardware
+### i) Abstraction from hardware
 . Java does not require programmers to manage memory manually or deal with hardware specific instructions.
 . it provides JVM that acts as a bridge between code and hardware.
 
-ii) Platform Independence (WORA)
+### ii) Platform Independence (WORA)
 . java code is compiled into bytecode which is not tied to any hardware or OS.
 . this is executed by JVM making it cross-platform.
 
-iii) Advanced features 
+### iii) Advanced features 
 . Java supports Object-oriented programming (OOP) which improves code organization and reusability.
 . it provides automatic garbage collection to handle memory efficiently.
 
-iv) Ease of use 
+### iv) Ease of use 
 . java has a clear, readable syntax making it easier to learn and write.
 . Strong error checking at time of compilation as well as runtime.
 
@@ -47,24 +47,133 @@ vi) complex details are hidden from the user and only necessary details are show
 it was first implementd in 1991 in a project known as the green project.
 
 # Evolution of java over the years
-. Java 1.1: inner class, JDBC, Java Beans.
+### Java 1.1
+inner class, JDBC, Java Beans.
 
-. Java 2: Swing Graphical API, collection framework.
+### Java 2
+Swing Graphical API, collection framework.
 
-. Java 5: generics, annotations, enumerated types, enhanced for-loop.
+### Java 5
+generics, annotations, enumerated types, enhanced for-loop.
 
-. Java 6: performance, Web service enhance, scripting lang support.
+### Java 6
+performance, Web service enhance, scripting lang support.
 
-. Java 7: try-with-resources statement, diamond operator, improved support for dynamic languages.
+### Java 7
+try-with-resources statement, diamond operator, improved support for dynamic languages.
 
-. Java 8 (LTS) : Lambda Expression, Stream API, date & time API.
+### Java 8 (LTS) 
+Lambda Expression, Stream API, date & time API.
 
-. Java 9: Java program module System (project jigsaw) which improved scalability and performance.
+### Java 9
+Java program module System (project jigsaw) which improved scalability and performance.
 
-. Java 10 and beyond: more rapid releases with new versions every six months.
+### Java 10 and beyond
+more rapid releases with new versions every six months.
 
-. Long-term support versions are 8, 11, 17, 21.
+### Long-term support
+versions are 8, 11, 17, 21.
 
+# KEY FEATURES OF JAVA
+
+### Architecture-neutral (WORA)  
+Java applications run on any OS without modification because its code is converted into bytecode which is architecture independent as it needs JVM only to run on any OS.
+
+### Automatic Garbage Collection
+Java automatically manages memory by freeing up unused objects. it does so by checking the reachability of an object. no pointer required.
+
+### Rich in Libraries
+Java provides built-in libraries for creating graphical user interfaces like Swing, JavaFx which simplify UI development.
+
+### Object Oriented Programming
+Java follows OOP paradigm which organises the programs using objects and classes. it also increases code reusability by inheritance. Protects data using Encapsulation. simplifies the complex logic by hiding implementation details using Abstraction. Allows flexible and scalable code using polymorphism.
+
+### Secure
+No need of pointers so it prevents memory corruption. Bytecode verification in JVM ensure safe execution. APIs for authentication and encryption.
+
+### Robust
+Java is designed to handle unexpected errors and prevent memory leaks using automatic garbage collection, exception handling, Strong-type checking reduces errors during compile time.
+
+### Multi-threaded
+Java allows multiple lightweight processes to execute concurrently for better performance. it increases CPU utilization.
+
+# COMPONENTS OF JAVA
+
+## JDK (needed by developers)
+JDK is a software development kit required to develop, compile and run java applpications. it includes JRE and other development tools like javac, jdb, Javadoc, jar.
+
+## JRE (needed by end-users to run java)
+JRE is package that provides everything needed to run java applications but it does not include development tools like javac. It includes JVM, core libraries (java.lang, java.util, java.io).
+
+## JVM
+JVM is a component that executes java bytecode, it acts as a bridge between the compiled java code and underlying OS.
+it contains class loader, bytecode verifier, JIT compiler, garbage collector.
+
+# How JVM works?
+It loads the class in memory using class loader.
+
+Bytecode Verifier checks for security and correctness.
+
+JIT compiler converts bytecode into machine code.
+
+Execution enginer executes the machine code.
+
+Garbage collector remove unused objects to increase performance.
+
+# JIT (just-in-time compiler)
+It converts bytecode into native machine language to execute the code.
+
+It also compiles a method once and reuses the compiled version.
+
+# HIGH LEVEL LANGUAGE
+. High level of Abstraction from machine hardware.
+
+. easy to read and write.
+
+. Automatic garbage collection
+
+. platform independent
+
+. compiled/interpreted into machine code via compiler/interpreter
+
+. Execution speed is genrally slower due to high abstraction.
+
+# LOW LEVEL LANGUAGE
+. close to hardware and minimal abstraction.
+
+. harder to read and write.
+
+. manual memory management using pointers.
+
+. platform dependent.
+
+.  Directly translated into machine code or written in machine code itself.
+
+.  Execution speed is faster as it is closer to machine code.
+
+
+# COMPILER 
+. Translates java source code into byte code.
+
+. it is used during compile-time.
+
+. it work on java source code and give bytecode as output.
+
+. catches and reports syntax before execution.
+
+. Converts entire source code into bytecode at once.
+
+
+# INTERPRETER
+. Executes bytecode line by line at runtime.
+
+. it is used during run-time.
+
+. it work on compiled bytecode and convert in machine specific code.
+
+. handles runtime errors like exceptions.
+
+. executes byte code line by line.
 
 
  #   public static void main(String[] args)
