@@ -76,25 +76,25 @@ versions are 8, 11, 17, 21.
 
 # KEY FEATURES OF JAVA
 
-### Architecture-neutral (WORA)  
+### i) Architecture-neutral (WORA)  
 Java applications run on any OS without modification because its code is converted into bytecode which is architecture independent as it needs JVM only to run on any OS.
 
-### Automatic Garbage Collection
+### ii) Automatic Garbage Collection
 Java automatically manages memory by freeing up unused objects. it does so by checking the reachability of an object. no pointer required.
 
-### Rich in Libraries
+### iii) Rich in Libraries
 Java provides built-in libraries for creating graphical user interfaces like Swing, JavaFx which simplify UI development.
 
-### Object Oriented Programming
+### iv) Object Oriented Programming
 Java follows OOP paradigm which organises the programs using objects and classes. it also increases code reusability by inheritance. Protects data using Encapsulation. simplifies the complex logic by hiding implementation details using Abstraction. Allows flexible and scalable code using polymorphism.
 
-### Secure
+### v) Secure
 No need of pointers so it prevents memory corruption. Bytecode verification in JVM ensure safe execution. APIs for authentication and encryption.
 
-### Robust
+### vi) Robust
 Java is designed to handle unexpected errors and prevent memory leaks using automatic garbage collection, exception handling, Strong-type checking reduces errors during compile time.
 
-### Multi-threaded
+### vii )Multi-threaded
 Java allows multiple lightweight processes to execute concurrently for better performance. it increases CPU utilization.
 
 # COMPONENTS OF JAVA
